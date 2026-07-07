@@ -1,16 +1,168 @@
-# React + Vite
+# 👤 User Registration
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma aplicação Full Stack para cadastro e gerenciamento de usuários, desenvolvida com React, Vite, Styled Components e integração com banco de dados através de uma API REST.
 
-Currently, two official plugins are available:
+## 🚀 Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+O User Registration foi desenvolvido com o objetivo de praticar e consolidar conhecimentos em desenvolvimento Full Stack, abrangendo desde a construção da interface do usuário até a comunicação com o banco de dados.
 
-## React Compiler
+A aplicação permite cadastrar e visualizar usuários de forma simples e intuitiva, demonstrando a integração entre Front-end e Back-end em uma arquitetura moderna.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Front-end
+- React
+- Vite
+- Styled Components
+- Axios
+- JavaScript (ES6+)
+
+### Back-end
+- Node.js
+- Express.js
+
+### Banco de Dados
+- MongoDB
+
+
+## ✨ Funcionalidades
+
+- Cadastro de usuários
+- Listagem de usuários cadastrados
+- Comunicação entre Front-end e Back-end através de API REST
+- Interface moderna e responsiva
+- Consumo de dados do banco de dados
+- Gerenciamento de requisições HTTP
+
+---
+
+## 📸 Demonstração
+
+Adicione aqui imagens ou GIFs da aplicação.
+
+### Tela Inicial
+
+![Tela Inicial](.)
+
+### Cadastro de Usuários
+
+![Cadastro](./assets/register.png)
+
+---
+
+## 📂 Estrutura do Projeto
+
+```bash
+user-registration/
+│
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   └── package.json
+│
+├── backend/
+│   ├── routes/
+│   ├── controllers/
+│   ├── database/
+│   └── package.json
+│
+└── README.md
+```
+
+---
+
+## ⚙️ Instalação e Execução
+
+### Clone o repositório
+
+```bash
+git clone https://github.com/seu-usuario/user-registration.git
+```
+
+### Acesse o projeto
+
+```bash
+cd user-registration
+```
+
+### Instale as dependências do Front-end
+
+```bash
+npm install
+```
+
+### Execute o Front-end
+
+```bash
+npm run dev
+```
+
+### Instale as dependências do Back-end
+
+```bash
+npm install
+```
+
+### Execute o Back-end
+
+```bash
+npm start
+```
+
+---
+
+## 🔗 API
+
+Exemplo de endpoint utilizado:
+
+```http
+GET /users
+```
+
+Retorna a lista de usuários cadastrados.
+
+```http
+POST /users
+```
+
+Cria um novo usuário.
+
+---
+
+## 🎯 Objetivos do Projeto
+
+Este projeto foi desenvolvido para:
+
+- Praticar React com Vite
+- Aprimorar conhecimentos em Styled Components
+- Trabalhar com APIs REST
+- Realizar integração com banco de dados
+- Aplicar boas práticas de organização de código
+- Exercitar versionamento com Git e GitHub
+
+---
+
+## 📈 Aprendizados
+
+Durante o desenvolvimento deste projeto, foram trabalhados conceitos como:
+
+- Componentização com React
+- Gerenciamento de estados
+- Consumo de APIs com Axios
+- Integração Front-end e Back-end
+- Estruturação de aplicações Full Stack
+- Estilização com Styled Components
+- Versionamento de código com Git
+
+---
+
+## 👨‍💻 Autor
+
+**Vitor Marinho**
+
+- GitHub: https://github.com/vitormarinho88
+- LinkedIn:www.linkedin.com/in/vitormarinho93
+
+---
