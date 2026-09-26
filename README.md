@@ -38,20 +38,6 @@ A aplicação permite cadastrar e visualizar usuários de forma simples e intuit
 
 ---
 
-## 📸 Demonstração
-
-Adicione aqui imagens ou GIFs da aplicação.
-
-### Tela Inicial
-
-![Tela Inicial](.)
-
-### Cadastro de Usuários
-
-![Cadastro](./assets/register.png)
-
----
-
 ## 📂 Estrutura do Projeto
 
 ```bash
